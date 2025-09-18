@@ -24,7 +24,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <&kp B &kp Y &kp O &kp U &kp L &kp D &kp W &kp V &kp SPACE &kp C &kp I &kp E &kp A &kp H &kp T &kp S &kp N &kp BACKSPACE &kp SPACE &kp G &kp X &kp J &kp K &kp R &kp M &kp F &kp P &kp Q &lt 1 TAB &kp TAB &SPACEtd &kp ENTER>;
+            bindings = <&kp B &kp Y &kp O &kp U &kp L &kp D &kp W &kp V &kp SPACE &kp C &kp I &kp E &kp A &kp H &kp T &kp S &kp N &kp BACKSPACE &kp SPACE &kp G &kp X &kp J &kp K &kp R &kp M &kp F &kp P &kp Q &kp Z lt 1 TAB &SPACEtd &kp ENTER>;
         };
 
 upper_layer {

@@ -28,7 +28,7 @@
         };
 
 upper_layer {
-            bindings = <&kp B &kp Y &kp O &kp U &kp N7 &kp N8 &kp N9 &kp EQUAL &kp SPACE &kp C &kp I &kp E &kp A &kp N4 &kp N5 &kp N6 &kp MINUS &kp BACKSPACE &kp SPACE &kp G &kp X &kp J &kp K &kp N1 &kp N2 &kp N3 &kp P &kp Q &kp Z &kp TAB &kp SPACE &kp ENTER>;
+            bindings = <&kp B &kp HOME &kp UP &kp END &kp N7 &kp N8 &kp N9 &kp EQUAL &kp SPACE &kp DOWN &kp LEFT &kp E &kp RIGHT &kp N4 &kp N5 &kp N6 &kp MINUS &kp BACKSPACE &kp SPACE &kp G &kp X &kp J &kp K &kp N1 &kp N2 &kp N3 &kp P &kp Q &kp Z &kp TAB &kp SPACE &kp ENTER>;
         };
 
 lower_layer {

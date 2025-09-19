@@ -2,6 +2,23 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+	conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+	};
+    };
+	behaviors {
+        SPACEtd: tap_dance_layer_tap {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&lt 2 SPACE>, <&kp DOT>;
+        };
+    };
+
+    
     keymap {
         compatible = "zmk,keymap";
 

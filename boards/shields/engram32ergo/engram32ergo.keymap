@@ -29,15 +29,15 @@
 			&kp Z &lt 1 TAB      &SPACEtd &kp ENTER>;
 	};
 	upper_layer {bindings = <
-	  &kp B &kp HOME &kp UP &kp END	 	&kp N7 &kp N8 &kp N9 &kp EQUAL 
-&trans   &kp C &kp LEFT &kp DOWN &kp RIGHT 	&kp N4 &kp N5 &kp N6 &kp MINUS &kp BACKSPACE 
-&trans    &kp G &kp X &kp J &kp K 		&kp N1 &kp N2 &kp N3 &kp P &kp Q 
+	&kp PG_UP &kp HOME &kp UP &kp END	&kp N7 &kp N8 &kp N9 &kp EQUAL 
+&trans &kp PG_DN &kp LEFT &kp DOWN &kp RIGHT 	&kp N4 &kp N5 &kp N6 &kp MINUS &kp BACKSPACE 
+&trans    &kp G   &kp X    &kp J   &kp K	&kp N1 &kp N2 &kp N3 &kp P &kp Q 
 			&kp Z &trans         &trans &kp N0>;
 	};
 	lower_layer {bindings = <
-	  &kp B &kp Y &kp O &kp U	 	&kp L &kp D &kp W &kp V 
-&kp LSHFT &kp C &kp I &kp E &kp A 		&kp H &kp T &kp S &kp N &kp BACKSPACE 
-&kp LCTRL &kp G &kp X &kp J &kp K 		&kp R &kp M &kp F &kp P &kp Q 
+	  &kp B &kp Y &kp O &kp LPAR	 	&kp RPAR &kp COLON &kp PIPE &kp V 
+&trans    &kp C &kp I &kp E &kp LBKT 		&kp RBKT &kp APOS &kp DQT &kp MINUS &kp BACKSPACE 
+&trans    &kp G &kp X &kp J &kp K 		&kp QMARK &kp COMMA &kp F &kp P &kp Q 
 			&kp Z &trans         &trans &kp ENTER>;
         };
     };

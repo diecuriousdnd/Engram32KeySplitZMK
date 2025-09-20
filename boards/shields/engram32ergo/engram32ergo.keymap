@@ -42,11 +42,10 @@
 			&kp Z &trans         &trans &kp ENTER>;
 	};
 	tri_layer {bindings = <
-	&kp B &bt BT_CLR &bt BT_PRV &bt BT_NXT	&kp L &kp D &kp W &kp V 
-&kp LSHFT &kp C   &kp I   &kp E   &kp A 	&kp H &kp T &kp S &kp N &kp BACKSPACE 
-&kp LCTRL &kp G   &kp X   &kp J   &kp K 	&kp R &kp M &kp F &kp P &kp Q 
-			&kp Z &lt 1 TAB      &SPACEtd &kp ENTER>;
-	    };
+       &kp B &bt BT_CLR &bt BT_PRV &bt BT_NXT	&kp L &kp D &kp W &kp V 
+&trans &kp C   &kp I   &kp E   &kp A 		&kp H &kp T &kp S &kp N &kp BACKSPACE 
+&trans &kp G   &kp X   &kp J   &kp K 		&kp R &kp M &kp F &kp P &kp Q 
+			&kp Z &trans	     &trans &kp ENTER>;
         };
     };
 };
